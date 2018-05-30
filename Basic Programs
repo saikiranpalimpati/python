@@ -1,0 +1,9 @@
+#fibonacci by storing in a list
+def fibonnaci2(n):
+
+  list=[1,1]
+  for x in range(2,n+1):
+    num=list[x-1]+list[x-2]
+    list.append(num)
+  return list[n]
+  print fibonnaci2(number)
