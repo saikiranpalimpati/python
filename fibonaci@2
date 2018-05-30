@@ -1,0 +1,12 @@
+#fibonacci using reursion
+def fibonnaci1(n):
+  if n==1 or n==0:
+    return 1
+  else:
+    return fibonnaci1(n-1)+fibonnaci1(n-2)
+
+#take a number as an input from the user and find what ever you want to
+
+number= input("Enter the nmber to which you want to find the factorial")
+print fibonnaci1(number)
+
