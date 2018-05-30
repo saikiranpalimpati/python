@@ -1,0 +1,15 @@
+def factorial(n):
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n - 1)
+
+ 
+#take a number as an input from the user and find what ever you want to
+
+number= input("Enter the nmber to which you want to find the factorial")
+
+print factorial(number)
+
+
+
