@@ -7,6 +7,6 @@ def fibonnaci1(n):
 
 #take a number as an input from the user and find what ever you want to
 
-number= input("Enter the nmber to which you want to find the factorial")
+number= input("Enter the nmber to which you want to find the fibonnaci digit for")
 print fibonnaci1(number)
 
