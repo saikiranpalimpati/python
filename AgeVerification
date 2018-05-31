@@ -1,0 +1,17 @@
+import datetime
+now = datetime.datetime.now()
+present_year=now.year
+present_month=now.month
+present_day=now.day
+print (present_year)
+print ('enter the month date year give a space between each')
+int mnth,int dat,int yer=input().split(' ')
+if(present_year > yer):
+  age_year= present_year-yer
+  if(present_month>mnth):
+    age_month=present_month-mnth
+  elif(present_month<=mnth):
+    age_month=12+mnth-present_month
+  
+
+   
