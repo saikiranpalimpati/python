@@ -1,1 +1,17 @@
+#Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old.
 
+import datetime
+now = datetime.datetime.now()
+year=int(now.year)
+name = input('Enter your name :')
+age = int(input('enter your age:'))
+number = int(input('enter a number to make those many copies'))
+if(age>=100):
+  for i in range(number):
+   print("you already crossed 100 years")
+   print('/n')
+else:
+  difference = 100-age
+  for i in range(number):
+   print("Hey", name,"you turn 100 years old  by",difference + year)
+  print('/n')
