@@ -1,0 +1,8 @@
+number = int(input("enter you number"))
+if(number%2==0):
+  if(number%4==0):
+    print(number,"is an even number and is also a multiple of 4")
+  else:    
+   print(number,"is an even number but it is not a multiple of 4")
+else:
+  print(number,"is an odd number")
