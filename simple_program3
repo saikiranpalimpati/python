@@ -1,0 +1,16 @@
+list=[]
+new=[]
+varnum=int(input("enter the number so that all the elements which are less than this number in the created list willbe displayed"))
+number=0
+print("enter the numbers you want to enter into yourlist hit enter when your are done")
+while(number!=''):
+ number = input()
+ if(number!=''):
+   list.append(int(number))
+print("the list you entered is")
+print (list)
+for i in list:
+  if(i < varnum):
+    new.append(i)
+print('elements in the entered list which are less than 5 are')
+print(new)
